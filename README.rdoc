@@ -2,7 +2,7 @@
 
 To run just
 
-code```
+```bash
 $ bundle install
 $ bin/rails server
 ```
