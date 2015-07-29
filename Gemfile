@@ -7,7 +7,7 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-gem 'influxdb'
+gem 'influxdb', '0.2.1'
 
 gem 'byebug'
 
