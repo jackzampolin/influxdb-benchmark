@@ -1,5 +1,7 @@
 # InfluxDB Benchmarking Test
 
+Requires a running install of [InfluxDB](https://influxdb.com/docs/v0.9/introduction/installation.html).
+
 To run just:
 
 ```bash
@@ -11,11 +13,15 @@ Then, in another terminal window,
 
 ```bash
 $ curl localhost:3000
-or
+
+or (if you have python 2.6+ installed)
+
 $ curl localhost:3000 | python -m json.tool
 ```
 
-The route will output JSON in the following format:
+The route will output testing data in a JSON format.
+
+Below is a sample output that also includes average times for 10 test runs and full data for one.
 
 ```json
 {
